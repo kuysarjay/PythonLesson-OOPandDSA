@@ -15,46 +15,6 @@ The purpose of this repository is to strengthen my understanding of software dev
 
 ---
 
-## 🐍 Language
-
-- Python Programming
-
-## 🎯 Topics Covered
-
-### Object-Oriented Programming (OOP)
-- Classes and Objects
-- Constructors (`__init__`)
-- Encapsulation
-- Abstraction
-- Inheritance
-- Polymorphism
-- Method Overriding
-- Composition
-
-### Data Structures
-- Lists
-- Tuples
-- Sets
-- Dictionaries
-- Stacks
-- Queues
-- Linked Lists
-- Trees
-- Graphs
-- Hash Tables
-
-### Algorithms
-- Linear Search
-- Binary Search
-- Bubble Sort
-- Selection Sort
-- Insertion Sort
-- Merge Sort
-- Quick Sort
-- Recursion
-- Algorithm Analysis
-- Time Complexity (Big O Notation)
-
 ## 🚀 Learning Goals
 
 - Master Python OOP concepts.
@@ -63,13 +23,6 @@ The purpose of this repository is to strengthen my understanding of software dev
 - Improve problem-solving and logical thinking.
 - Build efficient and maintainable Python applications.
 
----
-
-## 📈 Progress
-
-This repository is continuously updated as I learn new Object-Oriented Programming and Data Structure & Algorithms concepts and complete coding exercises.
-
----
 
 ## 👨‍💻 Author
 

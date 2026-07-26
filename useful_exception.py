@@ -22,22 +22,71 @@
     # OverflowError
         # Raised when the result of a calculation is too large to be represented.
         
-# Example code:
-def read_int(prompt, min, max):
-    ok = False
-    while not ok:
-        try:
-            value = int(input(prompt))
-            ok = True
-        except ValueError:
-            print("Error: wrong input")
-        if ok:
-            ok = value >= min and value <= max
-        if not ok:
-            print("Error: the value is not within permitted range (" + str(min) + ".." + str(max) + ")")
-    return value;
+# ArithmeticError
+try:
+    raise ArithmeticError("Arithmetic error occurred")
+except ArithmeticError as e:
+    print(e)
+    
+# BaseException
+try:
+    raise BaseException("Base exception occurred")
+except BaseException as e:
+    print(e)
+    
+# LookupError
+try:
+    raise LookupError("Lookup error occurred")
+except LookupError as e:
+    print(e)
+    
+# AssertionError
+try:
+    assert 5 > 10
+except AssertionError:
+    print("Assertion failed!")
+    
+# ImportError
+try:
+    import not_existing_module
+except ImportError:
+    print("Module not found!")
+    
+# IndexError
+numbers = [10, 20, 30]
 
+try:
+    print(numbers[5])
+except IndexError:
+    print("Index out of range!")
+    
+# KeyboardInterrupt
+try:
+    while True:
+        pass
+except KeyboardInterrupt:
+    print("Program interrupted by user.")
+    
+# KeyError
+student = {"name": "Nelson"}
 
-v = read_int("Enter a number from -10 to 10: ", -10, 10)
+try:
+    print(student["age"])
+except KeyError:
+    print("Key does not exist!")
+    
+# MemoryError
+try:
+    x = []
+    while True:
+        x.append("Python")
+except MemoryError:
+    print("Out of memory!")
+    
+# OverflowError
+import math
 
-print("The number is:", v)
+try:
+    print(math.exp(1000))
+except OverflowError:
+    print("Number too large!")
